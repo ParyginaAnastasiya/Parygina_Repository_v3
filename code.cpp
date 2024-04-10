@@ -37,7 +37,6 @@ int main()
     cout << "5. Find the sum of the integer parts of these 3 numbers" << endl; 
     
     cout << "\nPlease enter the number of the desired function or 0 if you want to close the up: " << endl; 
-    
     int a;
     bool While = true;
     while (While) {
