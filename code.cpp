@@ -4,7 +4,9 @@ using namespace std;
 
 double EnterX()
 {   
-   
+   cout << "Enter x: ";
+   double a; cin >> a;
+   return 0;
 }
     
 double EnterY()
