@@ -4,7 +4,7 @@ using namespace std;
 
 double EnterX()
 {   
-    
+   
 }
     
 double EnterY()
