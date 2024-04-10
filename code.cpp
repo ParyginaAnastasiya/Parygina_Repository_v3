@@ -14,7 +14,9 @@ double EnterY()
     
 double EnterZ()
 {
-   
+   cout << "Enter z: ";
+   double a; cin >> a;
+   return 0;
 }
     
 void FindFracSum(double x, double y, double z)
