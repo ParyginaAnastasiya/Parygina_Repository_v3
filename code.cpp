@@ -6,7 +6,7 @@ double EnterX()
 {   
    cout << "Enter x: ";
    double a; cin >> a;
-   return 0;
+   return a;
 }
     
 double EnterY()
