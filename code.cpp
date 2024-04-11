@@ -24,12 +24,12 @@ void FindFracSum(double x, double y, double z)
 
 void FindIntSum(double x, double y, double z)
 {
-    
+   
 }
 
 int main()
 {   
-    int x; int y; int z;
+    double x, y, z;
     cout << "1. Enter a real number x" << endl;  
     cout << "2. Enter a real number y" << endl; 
     cout << "3. Enter a real number z" << endl; 
