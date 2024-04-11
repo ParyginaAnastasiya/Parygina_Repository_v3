@@ -24,7 +24,16 @@ void FindFracSum(double x, double y, double z)
 
 void FindIntSum(double x, double y, double z)
 {
-   
+   double fracX, intX;
+   double fracY, intY;
+   double fracZ, intZ;
+   double sum;
+   fracX = modf(x , &intX);
+   fracY = modf(y , &intY);
+   fracZ = modf(z , &intZ);
+   sum = intX + intY + intZ;
+   cout << "The sum of integer parts: ";
+   cout << sum << endl;
 }
 
 int main()
