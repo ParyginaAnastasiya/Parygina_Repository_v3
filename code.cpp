@@ -11,7 +11,9 @@ double EnterX()
     
 double EnterY()
 {
-    
+    cout << "Enter y: ";
+    double a; cin >> a;
+    return a;
 }
     
 double EnterZ()
