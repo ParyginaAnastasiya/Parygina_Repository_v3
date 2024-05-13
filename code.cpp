@@ -25,7 +25,16 @@ double EnterZ()
     
 void FindFracSum(double x, double y, double z)
 {
-   
+   double fracX, intX;
+   double fracY, intY;
+   double fracZ, intZ;
+   double sum;
+   fracX = modf(x , &intX);
+   fracY = modf(y , &intY);
+   fracZ = modf(z , &intZ);
+   sum = fracX + fracY + fracZ;
+   cout << "The sum of fractional parts: ";
+   cout << sum << endl;
 }
 
 void FindIntSum(double x, double y, double z)
